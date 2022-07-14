@@ -2,8 +2,8 @@ package template
 
 import (
 	"bytes"
-	"github.com/vx3r/wg-gen-web/model"
-	"github.com/vx3r/wg-gen-web/util"
+	"github.com/lanyeit/wg-gen-web/model"
+	"github.com/lanyeit/wg-gen-web/util"
 	"os"
 	"path/filepath"
 	"strings"
@@ -180,7 +180,7 @@ var (
                                             <td class="text-footer1 pb10" style="color:#c1cddc; font-family:'Muli', Arial,sans-serif; font-size:16px; line-height:20px; text-align:center; padding-bottom:10px;">Wg Gen Web - Simple Web based configuration generator for WireGuard</td>
                                         </tr>
                                         <tr>
-                                            <td class="text-footer2" style="color:#8297b3; font-family:'Muli', Arial,sans-serif; font-size:12px; line-height:26px; text-align:center;"><a href="https://github.com/vx3r/wg-gen-web" target="_blank" class="link" style="color:#66c7ff; text-decoration:none;"><span class="link" style="color:#66c7ff; text-decoration:none;">More info on Github</span></a></td>
+                                            <td class="text-footer2" style="color:#8297b3; font-family:'Muli', Arial,sans-serif; font-size:12px; line-height:26px; text-align:center;"><a href="https://github.com/lanyeit/wg-gen-web" target="_blank" class="link" style="color:#66c7ff; text-decoration:none;"><span class="link" style="color:#66c7ff; text-decoration:none;">More info on Github</span></a></td>
                                         </tr>
                                     </table>
                                 </td>

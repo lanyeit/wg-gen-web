@@ -4,10 +4,10 @@
 
 Simple Web based configuration generator for [WireGuard](https://wireguard.com).
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/vx3r/wg-gen-web)](https://goreportcard.com/report/github.com/vx3r/wg-gen-web)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lanyeit/wg-gen-web)](https://goreportcard.com/report/github.com/lanyeit/wg-gen-web)
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 ![Discord](https://img.shields.io/discord/681699554189377567)
-![Build docker images via buildx](https://github.com/vx3r/wg-gen-web/actions/workflows/dockerimage.yml/badge.svg)
+![Build docker images via buildx](https://github.com/lanyeit/wg-gen-web/actions/workflows/dockerimage.yml/badge.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/vx3r/wg-gen-web)
 ![Docker Pulls](https://img.shields.io/docker/pulls/vx3r/wg-gen-web)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/vx3r/wg-gen-web)
@@ -89,8 +89,8 @@ use 127.0.0.1 as <API_LISTEN_IP>.
 ### Directly without docker
 
 Fill free to download latest artifacts from my GitLab server:
-* [Backend](https://github.com/vx3r/wg-gen-web/-/jobs/artifacts/master/download?job=build-back)
-* [Frontend](https://github.com/vx3r/wg-gen-web/-/jobs/artifacts/master/download?job=build-front)
+* [Backend](https://github.com/lanyeit/wg-gen-web/-/jobs/artifacts/master/download?job=build-back)
+* [Frontend](https://github.com/lanyeit/wg-gen-web/-/jobs/artifacts/master/download?job=build-front)
 
 Put everything in one directory, create `.env` file with all configurations and run the backend.
 

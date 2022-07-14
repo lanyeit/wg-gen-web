@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
-	"github.com/vx3r/wg-gen-web/core"
+	"github.com/lanyeit/wg-gen-web/core"
 )
 
 // ApplyRoutes applies router to gin Router

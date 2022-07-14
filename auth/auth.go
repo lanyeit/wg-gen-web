@@ -3,10 +3,10 @@ package auth
 import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
-	"github.com/vx3r/wg-gen-web/auth/fake"
-	"github.com/vx3r/wg-gen-web/auth/github"
-	"github.com/vx3r/wg-gen-web/auth/oauth2oidc"
-	"github.com/vx3r/wg-gen-web/model"
+	"github.com/lanyeit/wg-gen-web/auth/fake"
+	"github.com/lanyeit/wg-gen-web/auth/github"
+	"github.com/lanyeit/wg-gen-web/auth/oauth2oidc"
+	"github.com/lanyeit/wg-gen-web/model"
 	"golang.org/x/oauth2"
 	"os"
 )

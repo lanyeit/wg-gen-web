@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/coreos/go-oidc"
 	log "github.com/sirupsen/logrus"
-	"github.com/vx3r/wg-gen-web/model"
+	"github.com/lanyeit/wg-gen-web/model"
 	"golang.org/x/oauth2"
 	"os"
 )

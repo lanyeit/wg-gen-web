@@ -3,10 +3,10 @@ package server
 import (
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
-	"github.com/vx3r/wg-gen-web/auth"
-	"github.com/vx3r/wg-gen-web/core"
-	"github.com/vx3r/wg-gen-web/model"
-	"github.com/vx3r/wg-gen-web/version"
+	"github.com/lanyeit/wg-gen-web/auth"
+	"github.com/lanyeit/wg-gen-web/core"
+	"github.com/lanyeit/wg-gen-web/model"
+	"github.com/lanyeit/wg-gen-web/version"
 	"golang.org/x/oauth2"
 	"net/http"
 )

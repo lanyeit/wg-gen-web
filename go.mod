@@ -1,4 +1,4 @@
-module github.com/vx3r/wg-gen-web
+module github.com/lanyeit/wg-gen-web
 
 go 1.16
 

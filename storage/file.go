@@ -2,8 +2,8 @@ package storage
 
 import (
 	"encoding/json"
-	"github.com/vx3r/wg-gen-web/model"
-	"github.com/vx3r/wg-gen-web/util"
+	"github.com/lanyeit/wg-gen-web/model"
+	"github.com/lanyeit/wg-gen-web/util"
 	"os"
 	"path/filepath"
 )

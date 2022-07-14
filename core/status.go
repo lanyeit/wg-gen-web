@@ -10,7 +10,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/vx3r/wg-gen-web/model"
+	"github.com/lanyeit/wg-gen-web/model"
 )
 
 // apiError implements a top-level JSON-RPC error.

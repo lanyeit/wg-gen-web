@@ -4,7 +4,7 @@ FROM golang AS build-back
 WORKDIR /app
 ARG COMMIT
 COPY . .
-RUN go build -o wg-gen-web-linux -gcflags="all=-N -l" -ldflags="-X 'github.com/vx3r/wg-gen-web/version.Version=${COMMIT}'" github.com/vx3r/wg-gen-web/cmd/wg-gen-web
+RUN go build -o wg-gen-web-linux -gcflags="all=-N -l" -ldflags="-X 'github.com/lanyeit/wg-gen-web/version.Version=${COMMIT}'" github.com/lanyeit/wg-gen-web/cmd/wg-gen-web
 RUN go get github.com/go-delve/delve/cmd/dlv
 
 FROM node:lts AS build-front

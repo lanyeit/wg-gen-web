@@ -4,9 +4,9 @@ import (
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 	"github.com/skip2/go-qrcode"
-	"github.com/vx3r/wg-gen-web/auth"
-	"github.com/vx3r/wg-gen-web/core"
-	"github.com/vx3r/wg-gen-web/model"
+	"github.com/lanyeit/wg-gen-web/auth"
+	"github.com/lanyeit/wg-gen-web/core"
+	"github.com/lanyeit/wg-gen-web/model"
 	"golang.org/x/oauth2"
 	"net/http"
 )

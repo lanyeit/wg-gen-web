@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	"github.com/vx3r/wg-gen-web/util"
+	"github.com/lanyeit/wg-gen-web/util"
 	"time"
 )
 

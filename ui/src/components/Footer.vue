@@ -14,7 +14,7 @@
                     <div :align="$vuetify.breakpoint.smAndDown ? 'center' : 'right'">
                         <small>Created with</small>
                         <v-icon class="pr-1 pl-1">mdi-heart</v-icon><span>by</span><a class="pr-2 pl-1" href="mailto:vx3r@127-0-0-1.fr">vx3r</a>
-                        <a :href="'https://github.com/vx3r/wg-gen-web/commit/' + version"><kbd>Version: {{ version.substring(0,7) }}</kbd></a>
+                        <a :href="'https://github.com/lanyeit/wg-gen-web/commit/' + version"><kbd>Version: {{ version.substring(0,7) }}</kbd></a>
                     </div>
                 </v-col>
             </v-row>
